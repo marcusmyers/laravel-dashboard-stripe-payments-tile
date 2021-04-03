@@ -1,5 +1,5 @@
 {
-    "name": "digikraaft/laravel-dashboard-stripe-payments-tile",
+    "name": "marcusmyers/laravel-dashboard-stripe-payments-tile",
     "description": "A tile to show list of Stripe Payments on Laravel Dashboard",
     "keywords": [
         "digikraaft",
@@ -18,7 +18,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4|^8.0",
         "illuminate/console": "^8.0",
         "illuminate/pagination": "^8.0",
         "illuminate/support": "^8.0",
