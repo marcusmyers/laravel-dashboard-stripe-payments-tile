@@ -34,7 +34,7 @@ class FetchPaymentsDataFromStripeApi extends Command
                     'status' => $payment->status,
                     'captured' => $payment->captured,
                     'createdAt' => Carbon::parse($payment->created)
-                        ->format("d.m.Y"),
+                        ->format("m.d.Y"),
                 ];
             })->toArray();
 
